@@ -1,6 +1,7 @@
 <?php
 
 return [
+
     'separatorTens' => 'und',
     'separatorHundreds' => '',
     'firstDigit' => 'true',
@@ -42,7 +43,7 @@ return [
     '800' => 'achthundert',
     '900' => 'neunhundert',
     '1000' => 'tausend',
-    '1000000' => 'Million',
-    '1000000000' => 'Milliarde',
-    '1000000000000' => 'Billion',
+    '1000000' => '{1}Million|[2-*]Millionen',
+    '1000000000' => '{1}Milliarde|[2-*]Milliarden',
+    '1000000000000' => '{1}Billion|[2-*]Billionen',
 ];

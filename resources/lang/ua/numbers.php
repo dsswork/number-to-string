@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'label' => 'Введiть число',
     'separatorTens' => ' ',
     'separatorHundreds' => ' ',
     'firstDigit' => false,
